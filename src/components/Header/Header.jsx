@@ -1,13 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import "./Header.css";
-
+import links from './navItems.json'
 const Header = () => {
-  const links = [
-    {title: 'Home', path:'/'},
-    {title: 'World', path:'/world'},
-    {title: 'Technology', path:'/technology'}
-  ]
+
   return (
     <>
     <div className='header-wrapper'>
